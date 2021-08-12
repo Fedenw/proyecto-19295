@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Yulux</title>
+  <meta content="description" name="Empresa de indumentaria personalizada">
+  <meta content="keywords" name="indumentaria, camisas, kimonos, sin géneros">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- CSS relacionados -->
+  <link href="eBusiness/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="eBusiness/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="eBusiness/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="eBusiness/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="eBusiness/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="eBusiness/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- CSS principal  -->
+  <link href="eBusiness/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- El header -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+      <div class="logo">
+        <h1><a href="index.html"><span></span>Yulux</a></h1>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="Camisas.html">Camisas</a>
+          <li><a class="nav-link scrollto" href="kimonos.html">Kimonos</a></li>
+          <li><a class="nav-link scrollto" href="buzos.html">Buzos</a></li>
+          <li><a class="nav-link scrollto" href="nosotres.html">Nosotres</a></li>
+          <li><a class="nav-link scrollto" href="contacto.html">contacto</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header><!-- Fin del header -->
+
+  <!-- Cambio de colores de Bootstrap-->
+<style> 
+.carousel-container {
+  background: #2196f3;  
+  background: -webkit-linear-gradient(to right, #f44336, #2196f3);  
+  background: linear-gradient(to right, #f44336, #2196f3); 
+}
+
+#header .logo h1 a, #header .logo h1 a:hover {
+    margin-left: -280px;
+    font-size: xxx-large;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section-headline.services-head > h2 {
+    color: red;
+    margin-bottom: 25px;
+}
+
+.single-services > p {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+</style>
+
+  <!-- Carrucel principal -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown"> Tu Yulux</h2>
+                <p class="animate__animated animate__fadeInUp">Creá tu propia moda en tu propio mundo.</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">¡Veni!</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Tus Camisas</h2>
+                <p class="animate__animated animate__fadeInUp">Diseñá tu propio estilo según tus propias reglas</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">¡Diseñemos!</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Tus Kimonos</h2>
+                <p class="animate__animated animate__fadeInUp">Buscá un diseño que refleje quien sos y cómo sos</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">¡Empecemos!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <main id="main">
+<!-- Fin del carrucel -->
+
+    <!-- Servicios -->
+    <div id="services" class="services-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Nuestro mundo</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-briefcase"></i>
+                  </a>
+                  <h4>Diseña</h4>
+                  <p>
+                    Viste una camisa personalizada según tu estilo. Añádele detalles originales tanto para hombre como para mujer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-card-checklist"></i>
+                  </a>
+                  <h4>Crea</h4>
+                  <p>
+                    Llevá tus ideas al próximo nivel con nuestra ayuda y dale forma a tu estilo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-bar-chart"></i>
+                  </a>
+                  <h4>Crece</h4>
+                  <p>
+                    Dale rienda suelta a tu creatividad y conviertete en parte de nuestra familia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-binoculars"></i>
+                  </a>
+                  <h4>Busca </h4>
+                  <p>
+                    Que tus diseños generen un impacto en el otre.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-brightness-high"></i>
+                  </a>
+                  <h4>Revoluciona</h4>
+                  <p>
+                    Rompamos las barreras de género impuestas y revolucionemos la sociedad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-calendar4-week"></i>
+                  </a>
+                  <h4>24/7 para vos</h4>
+                  <p>
+                    A la hora que quieras, el día que quieras, siempre vamos a estar para ayudarte.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- Fin de los servicios -->
+
+    <!-- Equipo -->
+    <div id="team" class="our-team-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>El equipo que tiene la posta</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                  <img src="assets/img/team/1.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Gabo</h4>
+                <p>El rulo</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                  <img src="assets/img/team/2.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Vane</h4>
+                <p>La rubia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                  <img src="assets/img/team/3.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Fedu</h4>
+                <p>Lo que sigue</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                  <img src="assets/img/team/4.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Panchi</h4>
+                <p>La experta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Fin del equipo -->
+
+
+    <!-- Suscripcion -->
+    <div class="suscribe-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+            <div class="suscribe-text text-center">
+              <h3>Bienvenide a la familia Yulux</h3>
+              <a class="sus-btn" href="#">Suscribite por acá</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- Fin de la suscripción -->
+
+    <!-- Sección de Contacto -->
+    <div id="contact" class="contact-area">
+      <div class="contact-inner area-padding">
+        <div class="contact-overly"></div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2>Contactanos</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi bi-phone"></i>
+                  <p>
+                    Llamanos: +54 9 1166551193<br>
+                    <span>Lunes a Sábados (9am-9pm)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi bi-envelope"></i>
+                  <p>
+                    Email: yulux.style@gmail.com<br>
+                    <span>Web: www.tuyulux.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi bi-geo-alt"></i>
+                  <p>
+                    Holmberg 4619 - Saavedra - Buenos Aires<br>
+                    <span>CABA 1425, Argentina</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <!-- Mapa Google -->
+            <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.14983928908!2d-58.493214284771774!3d-34.5497613804735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ea1b288ba5%3A0xef4c41e7f7c50af4!2sHolmberg%204619%2C%20C1430%20DQO%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1628516313205!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!-- Fin del Mapa -->
+
+            <!-- Formulario de Contacto -->
+            <div class="col-md-6">
+              <div class="form contact-form">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Consulta" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Cargando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">¡Tu consulta se envió con éxito! ¡Gracias!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Enviar consulta</button></div>
+                </form>
+              </div>
+            </div>        
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+<!-- Fin del formulario -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>Tu</span>Yulux</h2>
+                </div>
+                <p>La tienda que estabas buscando con los diseños que estabas soñando.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/yulux.indumentaria"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/yulux_/?hl=en"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/federico-pujol-%F0%9F%9A%80-014a19143/"><i class="bi bi-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Primera parte -->
+          <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Información</h4>
+                <p>
+                  Ante cualquier duda, sabés dónde encontrarnos.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +54 9 1166551193</p>
+                  <p><span>Email:</span> yulux.style@gmail.com</p>
+                  <p><span>Horarios:</span> 9am-9pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>Tu Yulux</strong>. 2021
+              </p>
+            </div>
+            <div class="credits">
+              Diseñado por <a href="https://www.instagram.com/theycallhimfede/">Federico Pujol</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin del Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- JS links  -->
+  <script src="eBusiness/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="eBusiness/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="eBusiness/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="eBusiness/assets/vendor/php-email-form/validate.js"></script>
+  <script src="eBusiness/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="eBusiness/assets/js/main.js"></script>
+</body>
+</html>
